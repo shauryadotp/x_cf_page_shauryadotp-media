@@ -1,5 +1,5 @@
 export async function onRequest(ctx) {
-  const gh = "https://github.com/shauryadotp.png";
+  const gh = "/f/img/favicon/latest.ico";
 
   const res = await fetch(gh, {
     cf: { cacheEverything: true }
